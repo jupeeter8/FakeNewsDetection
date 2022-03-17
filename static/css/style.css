@@ -1,56 +1,93 @@
-*{
-    margin: 0; padding: 0;
-    box-sizing: border-box;
-}
-.parent{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    min-height: 100vh;
-    gap: 40px;
-}
-.content{
-    font-family: 'JetBrains Mono', monospace;
-    display: flex;
-    flex-direction: column;
-    width: 64%;
-    background-color: bisque;
-    padding: 40px;
-    min-height: 100vh;
-
-}
-.content p{
-    width: 50%;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    
-    width: 100%;
-    background-color: black;
-    height: 80px;
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: stretch;
+  min-height: 100vh;
+}
+.content {
+  font-family: "JetBrains Mono", monospace;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  width: 100%;
 }
 
-nav .wrapper{
-    font-family: 'Poppins', sans-serif; 
-    display: flex;
-    justify-content: flex-start;
-    margin:  0 auto;
-    align-items: center;
-    width: 64%;
-    color: white;
-    height: 100%;
-    gap: 18px;
+.content p {
+  width: 50%;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  background-color: aqua;
+  padding: 8px;
+
+}
+.content h2{
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: underline blueviolet 4px;
+    transition: all 0.2s ease-out;
+    cursor: default;
+    width: fit-content;
+}
+
+.content h2:hover{
+    background-color: blueviolet;
+}
+
+
+.container {
+  /* background-color: rgb(241, 241, 241); */
+  width: 64%;
+  margin: 40px auto;
+  flex-grow: 1;
+  /* padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px; */
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+}
+
+nav .wrapper {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  align-items: center;
+  width: 64%;
+  color: white;
+  height: 100%;
+  gap: 18px;
 }
 
 nav .wrapper h1 {
-    font-size: 24px;
-    font-weight: 300;
-    margin-right: auto;
+  font-size: 24px;
+  font-weight: 300;
+  margin-right: auto;
 }
 
-nav .wrapper a{
-    font-size: 16px;
-    color: white;
-    font-family: 'JetBrains Mono', monospace;
+nav .wrapper a {
+  font-size: 16px;
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+  text-decoration: none;
+}
+
+nav .wrapper a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  height: 60px;
+  background-color: black;
+  color: white;
 }
