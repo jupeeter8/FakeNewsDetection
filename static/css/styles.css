@@ -1,0 +1,27 @@
+* {
+    margin: 0; padding: 0;
+}
+.nice {
+    background-color: crimson;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px;
+    box-shadow: 4px 8px 6px #21212130;
+}
+.nice2 {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.parent {
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+    align-items: center;
+    height: 400vh;
+
+}
