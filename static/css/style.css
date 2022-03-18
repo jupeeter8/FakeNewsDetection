@@ -23,38 +23,47 @@
   width: 50%;
   text-align: justify;
   letter-spacing: 0.5px;
-  background-color: aqua;
-  padding: 8px;
-
+  /* background-color: aqua; */
 }
-.content h2{
-    margin-bottom: 12px;
-    font-family: "Poppins", sans-serif;
-    text-decoration: underline blueviolet 4px;
-    transition: all 0.2s ease-out;
-    cursor: default;
-    width: fit-content;
-}
-
-.content h2:hover{
-    background-color: blueviolet;
+.content h2 {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline blueviolet 4px;
+  transition: all 0.2s ease-out;
+  cursor: default;
+  width: fit-content;
 }
 
+.content h2:hover {
+  background-color: blueviolet;
+}
 
 .container {
   /* background-color: rgb(241, 241, 241); */
   width: 64%;
   margin: 40px auto;
   flex-grow: 1;
-  /* padding-left: 16px;
-  padding-top: 16px;
-  padding-bottom: 16px; */
 }
+
+.contBody{
+  display: flex;
+  gap: 50px;
+}
+
+.contBody img{
+  width: 50%;
+}
+
+#news{
+  margin-top: 24px;
+}
+
 
 nav {
   width: 100%;
   background-color: black;
-  height: 80px;
+  height: 100px;
 }
 
 nav .wrapper {
@@ -66,17 +75,17 @@ nav .wrapper {
   width: 64%;
   color: white;
   height: 100%;
-  gap: 18px;
+  gap: 24px;
 }
 
 nav .wrapper h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 300;
   margin-right: auto;
 }
 
 nav .wrapper a {
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   font-family: "JetBrains Mono", monospace;
   text-decoration: none;
@@ -86,8 +95,21 @@ nav .wrapper a:hover {
   text-decoration: underline;
 }
 
+nav .wrapper i {
+  font-size: 30px;
+}
+
 footer {
   height: 60px;
   background-color: black;
   color: white;
+}
+
+#subHead{
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 48px;
+  color: blueviolet;
+  font-weight: bold;
+  width: fit-content;
+  font-size: 18px;
 }
