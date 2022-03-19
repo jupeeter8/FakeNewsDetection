@@ -11,7 +11,7 @@ def index():
 
 @app.route("/check", methods=["POST", "GET"])
 def check():
-    cleanT = clean_text(str(request.form['nBody']))
+    cleanT = clean_text(str(request.form['nTitle']))
     flash(cleanT)
     return render_template("index.html")
 app.run(debug=True)

@@ -39,18 +39,51 @@
           <p id="subHead">lorem ipsum dolor sit</p>
           <div class="contBody">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum sit sint repellat placeat. Cumque quas soluta blanditiis iure omnis veritatis obcaecati aliquam quia repellat, neque corrupti ad sequi quo.
-              Ea, exercitationem dolorem repellendus, consectetur ex amet quam error maiores incidunt praesentium ab! Culpa tempore repellendus mollitia exercitationem quae, debitis ducimus aut explicabo fugiat! Sit nobis debitis expedita quasi quisquam!
-              Hic esse reiciendis doloribus tenetur dolor nihil explicabo eaque, quos et facilis repellat quisquam nemo eum aspernatur, autem similique nisi dolores exercitationem quia provident voluptas eius fuga? Voluptatum, eos officia.
-              Debitis cumque saepe, officia provident dolore at qui cupiditate nihil expedita laborum quos commodi delectus assumenda tempore illo exercitationem omnis deserunt quaerat blanditiis maxime voluptatum facere animi autem. Vero, obcaecati.
-              Qui autem quaerat nam sequi rem, aliquam nemo inventore vel veritatis excepturi sapiente officia nihil consequatur ratione! Deserunt perspiciatis ea nemo natus! Dolorum modi, aliquid iusto error numquam vero assumenda.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eum
+              sit sint repellat placeat. Cumque quas soluta blanditiis iure
+              omnis veritatis obcaecati aliquam quia repellat, neque corrupti ad
+              sequi quo. Ea, exercitationem dolorem repellendus, consectetur ex
+              amet quam error maiores incidunt praesentium ab! Culpa tempore
+              repellendus mollitia exercitationem quae, debitis ducimus aut
+              explicabo fugiat! Sit nobis debitis expedita quasi quisquam! Hic
+              esse reiciendis doloribus tenetur dolor nihil explicabo eaque,
+              quos et facilis repellat quisquam nemo eum aspernatur, autem
+              similique nisi dolores exercitationem quia provident voluptas eius
+              fuga? Voluptatum, eos officia. Debitis cumque saepe, officia
+              provident dolore at qui cupiditate nihil expedita laborum quos
+              commodi delectus assumenda tempore illo exercitationem omnis
+              deserunt quaerat blanditiis maxime voluptatum facere animi autem.
+              Vero, obcaecati. Qui autem quaerat nam sequi rem, aliquam nemo
+              inventore vel veritatis excepturi sapiente officia nihil
+              consequatur ratione! Deserunt perspiciatis ea nemo natus! Dolorum
+              modi, aliquid iusto error numquam vero assumenda.
             </p>
-            <img src="https://images.unsplash.com/photo-1585007600263-71228e40c8d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=100" alt="">
+            <img
+              src="https://images.unsplash.com/photo-1585007600263-71228e40c8d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=100"
+              alt=""
+            />
           </div>
-          <input name="nTitle" id="news">
+
+          <!-- <div class="contBody"> -->
+            <form class="contBody"action="check" method="post">
+              <textarea type="text"name="nTitle" id="news" >abc</textarea>
+              <textarea name="" id="news" cols="30" rows="abc10"></textarea>
+          <!-- </div> -->
+          <!-- <div class="contBody">
+            {%for msg in get_flashed_messages()%}
+            <p>{{ msg }}</p>
+            {%endfor%}
+          </div> -->
         </div>
       </div>
-      <footer><h3>footer</h3></footer>
+      <footer>
+        <div class="wrapper">
+          <h3>
+            fake news detector            
+          </h3>
+          <a href="https://github.com/jupeeter8/FakeNewsDetection" target="_blank">source code</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
